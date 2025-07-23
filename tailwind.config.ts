@@ -52,6 +52,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Algorithm visualization colors
+				algo: {
+					start: 'hsl(var(--algo-start))',
+					end: 'hsl(var(--algo-end))',
+					wall: 'hsl(var(--algo-wall))',
+					visited: 'hsl(var(--algo-visited))',
+					path: 'hsl(var(--algo-path))',
+					current: 'hsl(var(--algo-current))',
+					grid: 'hsl(var(--algo-grid))',
+					empty: 'hsl(var(--algo-empty))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
